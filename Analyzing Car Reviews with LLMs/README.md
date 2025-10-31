@@ -1,18 +1,18 @@
-#Car Review NLP Pipeline
+# Car Review NLP Pipeline
 
 A fully integrated Natural Language Processing (NLP) pipeline leveraging **Large Language Models (LLMs)** to analyze, translate, and summarize automotive customer reviews.  
 This project showcases a multi-model approach for sentiment analysis, translation, question answering, and summarization — demonstrating the power of transformer-based architectures in real-world text processing.
 
 ---
 
-##Overview
+## Overview
 
 In the automotive industry, understanding customer feedback is crucial for product improvement and brand perception.  
 This project uses several fine-tuned transformer models from **Hugging Face** to process textual reviews efficiently and extract valuable insights.
 
 ---
 
-##Key Features
+## Key Features
 
 - **Sentiment Analysis** – Classifies customer feedback as positive or negative using `DistilBERT`.
 - **Machine Translation** – Translates English reviews into Spanish using `Helsinki-NLP/opus-mt-en-es`.
@@ -22,7 +22,7 @@ This project uses several fine-tuned transformer models from **Hugging Face** to
 
 ---
 
-##Models Used
+## Models Used
 
 | Task | Model | Description |
 |------|--------|-------------|
@@ -33,7 +33,7 @@ This project uses several fine-tuned transformer models from **Hugging Face** to
 
 ---
 
-##Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **Hugging Face Transformers**
@@ -43,7 +43,7 @@ This project uses several fine-tuned transformer models from **Hugging Face** to
 
 ---
 
-##Results
+## Results
 
 Below is a sample output demonstrating the integrated results of the pipeline:
 ==================== Sentiment Analysis ====================
@@ -70,7 +70,7 @@ Original Review:
 Summary:
 "Reliable and comfortable, though slightly less fuel-efficient."
 
-##Evaluation Metrics
+## Evaluation Metrics
 | Task | Metric | Result |
 |------|--------|--------|
 | Sentiment Analysis	| Accuracy | 0.92 | 
@@ -79,7 +79,7 @@ Summary:
 |QA | Exact Match | 0.89 |
 | Summarization | ROUGE-L | 0.85 |
 
-##Insights & Learnings
+## Insights & Learnings
 - Fine-tuned transformer models are highly adaptable to multi-task NLP scenarios.
 - The pipeline structure allows easy model replacement for task-specific improvements.
 - Metrics like BLEU and ROUGE are critical for evaluating generative models effectively.
