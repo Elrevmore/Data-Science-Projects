@@ -44,29 +44,29 @@ This project uses several fine-tuned transformer models from **Hugging Face** to
 ---
 
 ## Sample Results
-Sentiment Analysis 
+### Analysis 
 Review: "The ride is smooth and quiet, absolutely love this car."
 Prediction: Positive (Confidence: 98.4%)
 Review: "The engine makes too much noise and fuel economy is terrible."
 Prediction: Negative (Confidence: 95.7%)
 Accuracy: 0.92 | F1 Score: 0.91
 
-Translation
+### Translation
 Original (EN): "The car has a comfortable interior."
 Translated (ES): "El coche tiene un interior cómodo."
 BLEU Score: 0.87
 
-Question Answering
+### Question Answering
 Question: "What does the user say about the engine?"
 Context: "The engine performance is outstanding, especially at high speeds."
 Answer: "outstanding, especially at high speeds"
 
-Summarization
+### Summarization
 Original Review:
 "This car combines reliability, comfort, and performance in one package. 
 The fuel efficiency could be better, but the driving experience compensates for it."
 
-Summary:
+### Summary:
 "Reliable and comfortable, though slightly less fuel-efficient."
 
 ## Evaluation Metrics
