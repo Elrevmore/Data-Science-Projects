@@ -74,32 +74,29 @@ python main.py
 ## Sample Results
 
 ### Model Performnace(RMSE)
-==================== Linear Regression ====================
-Run: 0 | RMSE: 2.45
-Run: 1 | RMSE: 2.47
-Run: 2 | RMSE: 2.43
-============================================================
+#### Linear Regression 
+- Run: 0 | RMSE: 2.45
+- Run: 1 | RMSE: 2.47
+- Run: 2 | RMSE: 2.43
 
-==================== Decision Tree Regressor ====================
-Run: 0 | Max Depth: 1 | RMSE: 2.78
-Run: 1 | Max Depth: 2 | RMSE: 2.32
-Run: 2 | Max Depth: 10 | RMSE: 1.87
-============================================================
+#### Decision Tree Regressor
+- Run: 0 | Max Depth: 1 | RMSE: 2.78
+- Run: 1 | Max Depth: 2 | RMSE: 2.32
+- Run: 2 | Max Depth: 10 | RMSE: 1.87
 
-==================== Random Forest Regressor ====================
-Run: 0 | Max Depth: 1 | RMSE: 2.11
-Run: 1 | Max Depth: 2 | RMSE: 1.78
-Run: 2 | Max Depth: 10 | RMSE: 1.45
-============================================================
+#### Random Forest Regressor
+- Run: 0 | Max Depth: 1 | RMSE: 2.11
+- Run: 1 | Max Depth: 2 | RMSE: 1.78
+- Run: 2 | Max Depth: 10 | RMSE: 1.45
 
 ### Explatory Data Analysis Examples
 - Line plot of mean temperature over years and months.
 - Heatmap showing correlations between weather features.
 ### Mean Temperature Trend Over Months
-![Mean Temperature Trend](images/mean_temp_trend.png)
+![Mean Temperature Trend](Images/mean_temp_trend.png)
 
 ### Heatmap of Feature Correlations
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Images/correlation_heatmap.png)
 
 
 
